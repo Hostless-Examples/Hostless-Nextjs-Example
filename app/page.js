@@ -1,7 +1,6 @@
 import Image from "next/image";
 
 export default function Home() {
-  const [count, setCount] = useState(0);
   console.log(process.env.NEXT_PUBLIC_API_URL);
   console.log(process.env.NEXT_PUBLIC_NODE_ENV);
   return (
